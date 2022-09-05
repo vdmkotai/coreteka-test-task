@@ -1,0 +1,32 @@
+.game {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  width: min-content;
+  margin: 0 auto;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.gameInfo {
+  margin-bottom: 20px;
+  background: #19a0d9;
+  padding: 7px;
+  text-align: center;
+  color: #fff;
+  min-height: 100px;
+  border-radius: 7px;
+}
+
+.info {
+  display: block;
+  margin-top: 15px;
+}
+
+.clear {
+  clear: both;
+  content: "";
+}
